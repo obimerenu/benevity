@@ -1,0 +1,28 @@
+# Ignore these files
+
+.DS_STORE
+.vagrant
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+# Composer Libraries
+/vendor/
+
+# builds
+/build/
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

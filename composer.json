@@ -1,0 +1,27 @@
+{
+    "name": "CapitalsObi/CapitalsObi_api",
+    "description": "A Restful API for CapitalsObiEdge benevsAPI Service",
+    "authors": [
+        {
+            "name": "Obi Merenu",
+            "email": "obinna@CapitalsObiedge.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "vlucas/phpdotenv": "^2.2",
+        "firebase/php-jwt": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "mikey179/vfsStream": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CapitalsObi\\benevsAPI\\" : "src",
+            "CapitalsObi\\benevsTest\\" : "tests"
+        }
+    }
+}
